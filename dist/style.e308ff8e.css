@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+body{
+    background-color: rgba(238, 238, 238, 0.795);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+main{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    min-width: 60%;
+    padding-bottom: 32px;
+}
+h1{
+    text-align: center;
+    font-size: 2.2em;
+}
+.converter{
+    display: flex;
+}
+.converter div{
+    display: flex;
+    flex-direction: column;
+}
+.converter input,select{
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin: 8px;
+    border: 1px solid grey;
+    padding-left: 8px;
+}
+.converter select{
+    background-color: #fff;
+}
+.converter label{
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+.submit{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 24px;
+}
+.submit button{
+    height: 40px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #007bff;
+}
+form{
+    display: flex;
+    align-items: center;
+}
+span{
+    align-self: flex-end;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.submit h3,h2{
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */

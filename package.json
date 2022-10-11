@@ -1,0 +1,15 @@
+{
+  "name": "currency-converter",
+  "version": "1.0.0",
+  "description": "build currency converter",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Ravi Pal",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
