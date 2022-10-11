@@ -125,7 +125,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = handleError;
 function handleError(error) {
-  console.log(error);
+  console.log("error " + error);
 }
 },{}],"components/FetchData.js":[function(require,module,exports) {
 "use strict";
@@ -386,7 +386,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58159" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58562" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
